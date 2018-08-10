@@ -1,0 +1,99 @@
+/* landingPage.css */
+
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+  letter-spacing: 0.1em;
+  background-color: #313b4c;
+  margin: 0px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #2a2a2d;
+  width: 100%;
+}
+
+#header-img {
+  width: 154px;
+  height: 70px;
+  padding-top: 10px;
+}
+
+#nav-bar {
+  background-color: #efe5d0;
+  text-align: right;
+}
+
+#nav-bar ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+
+ #nav-bar ul li {
+	display: inline;
+	padding: 5px 20px 5px 20px;
+  text-transform: uppercase;
+  font-family: Anton, Helvetica, sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  text-align: center;
+}
+
+#about ul {
+  text-align: left;
+  padding: 20px 0px 50px 30%;
+  line-height: 2em;
+}
+
+#about h1 {
+  font-family: Anton, Helvetica, sans-serif;
+  font-size: 50px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+#mainContent {
+  color: #dbdbdb;
+  margin: 140px auto 20px auto;
+  max-width: 95%;
+  background-color: #212733;
+  border-radius: 10px;
+}
+
+#videoDiv {
+  margin-top: 50px auto 50px auto;
+}
+
+#video {
+   width: 854px;
+   height: 480px;
+}
+
+#email-label {
+  display: block;
+  margin: 5px;
+}
+
+#email {
+  margin: 5px;
+}
+
+#submit {
+  margin: 5px;
+}
+
+#steam {
+  padding: 50px;
+}
